@@ -22,14 +22,6 @@ cd Wav2Lip
 pip install -r requirements.txt
 
 
-
-3. Download the pre-trained face detection model:
-
-mkdir -p face_detection/detection/sfd
-wget https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth -O face_detection/detection/sfd/s3fd.pth
-
-
-
 ### Usage
 
 1. Prepare the input files:
